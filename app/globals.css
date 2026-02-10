@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dakar-green: #00843D;
+  --dakar-yellow: #F2C300;
+  --dakar-gray: #F7F7F7;
+  --dakar-dark: #1A1A1A;
+}
+
+body {
+  @apply bg-dakar-gray text-dakar-dark;
+}
+
+.btn-primary {
+  @apply bg-dakar-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-dakar-yellow text-dakar-dark px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors;
+}
+
+.btn-outline {
+  @apply border-2 border-dakar-green text-dakar-green px-6 py-3 rounded-lg font-semibold hover:bg-dakar-green hover:text-white transition-colors;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg p-6;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-dakar-green;
+}
+
+.fc {
+  @apply bg-white rounded-lg p-4;
+}
+
+.fc-toolbar-title {
+  @apply text-dakar-dark font-bold;
+}
+
+.fc-button-primary {
+  @apply bg-dakar-green border-dakar-green;
+}
+
+.fc-button-primary:hover {
+  @apply bg-green-700;
+}
+
+.fc-event {
+  @apply border-0 cursor-pointer;
+}
