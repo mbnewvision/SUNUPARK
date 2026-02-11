@@ -47,7 +47,7 @@ export default function Home() {
         </div>
 
         <div className="mt-16 bg-white rounded-lg p-12 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-dakar-dark">Inspiré de Dakar Mobilité</h2>
+          <h2 className="text-3xl font-bold mb-4 text-dakar-dark">SUNUPARK</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Une solution moderne et intuitive pour la gestion de votre parc automobile, 
             conçue avec les couleurs et l'esprit de Dakar Mobilité.
